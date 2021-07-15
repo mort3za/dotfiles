@@ -1,0 +1,20 @@
+[user]
+	email = m.ziaeemehr@gmail.com
+	name = Morteza Ziyae
+	signingkey = DFFCFD1455928680
+[core]
+	editor = vim
+	autocrlf = false
+	ignorecase = false
+[gpg]
+	program = gpg2
+[init]
+	defaultBranch = main
+[alias]
+	lg = log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit
+  s = status
+  pom = push origin main
+  c = commit -m
+  d = diff
+  dc = diff --cached
+  
